@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #203239;
+}
+
+.title {
+  padding: 30px;
+  background-color: #FFC107;
+  font-family: 'Secular One', sans-serif;
+  text-align: center;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+.temperature {
+  height: 150px
+}
+
+.temp, .cel, .fah {
+  color: white;
+  background-color: #203239;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  border-style: hidden;
+  height: 150px;
+  width: 100%;
+}
+
+.info {
+  background-color: #FFC107;
+  margin-top: -34px;
+  height: 85px;
+}
+
+.btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.unit {
+  position: absolute;
+  right: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.logo {
+  margin: 25px 30px;
+  color: black;
+}
+hr:not([size]){
+  height:0px;
+}
+
+.logo:hover {
+  color: #203239;
+}
+
+.social-media {
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-top: 127%;
+    margin-right: 30%;
+  }
+
+  .social-media {
+    margin-left: 30px;
+  }
+
+  .flogo {
+    margin-right: 63px;
+  }
+
+  .glogo {
+    margin-left: 74px;
+  }
+}
